@@ -1,0 +1,39 @@
+	@font-face {
+    src: url(fonts/Gorditas-Bold.ttf);
+    font-family: gordita;
+}
+
+@font-face {
+    src: url(fonts/Poppins-Bold.ttf);
+    font-family: popbold;
+}
+
+@font-face {
+    src: url(fonts/HomemadeApple-Regular.ttf);
+    font-family: apple;
+}
+
+body {
+    background: rgb(23, 55, 82);
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+}
+
+#changeBackgroundColor {
+   background: grey;
+   text-align: center;
+   font-family: popbold;
+}
+
+
+#solidButton {
+	background: #78c0ff;
+   font-family: popbold;
+	color: #32495c;
+	border-radius: 8px;
+	border-color: #32495c;
+	height: 50px;
+	width: 100px;
+}
